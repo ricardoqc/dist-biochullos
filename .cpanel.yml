@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/chullost/biolinks
+    - /bin/cp -R * $DEPLOYPATH
